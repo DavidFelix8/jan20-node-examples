@@ -1,0 +1,16 @@
+<div style="background-color: teal; color: white; margin-bottom: 1em;">
+  <p>{{ name }}</p>
+  <p>{{ color }}</p>
+  <p>{{ species }}</p>
+
+{{#if wellBehaved}}
+  
+  <p> {{ name }} is a well behaved {{ species }} </p>
+
+  {{else}}
+
+  <p> {{ name }} is a poorly behaved {{ species }} </p>  
+
+{{/if}}
+
+</div>
